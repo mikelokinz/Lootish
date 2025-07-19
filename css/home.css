@@ -5,40 +5,40 @@
     --primary-dark: #00cca4;
     --primary-light: #66ffdd;
     --primary-transparent: rgba(0, 255, 204, 0.1);
-    
+
     /* Secondary Colors */
     --secondary: #6e00ff;
     --secondary-dark: #4d00b3;
     --secondary-transparent: rgba(110, 0, 255, 0.1);
-    
+
     /* Background Colors */
     --dark: #0a0a0a;
     --dark-light: #141414;
     --dark-lighter: #1e1e1e;
     --dark-transparent: rgba(10, 10, 10, 0.9);
-    
+
     /* Text Colors */
     --light: #ffffff;
     --light-gray: #f0f0f0;
     --gray: #cccccc;
     --gray-dark: #666666;
-    
+
     /* Accent Colors */
     --accent-red: #ff3366;
     --accent-blue: #0099ff;
     --accent-purple: #9933ff;
     --accent-yellow: #b700ff;
-    
+
     /* Utility Colors */
     --success: #00cc66;
     --warning: #ffcc00;
     --error: #ff3333;
-    
+
     /* Border Radius */
     --border-radius: 12px;
     --border-radius-sm: 8px;
     --border-radius-lg: 16px;
-    
+
     /* Shadows */
     --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
     --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -66,7 +66,10 @@ body {
 }
 
 /* ===== Typography ===== */
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Cinzel', serif;
     font-weight: 700;
     line-height: 1.2;
@@ -119,8 +122,6 @@ h4 {
     letter-spacing: 2px;
 }
 
-
-
 .section-title::before {
     left: -50px;
 }
@@ -157,8 +158,6 @@ img {
     border-radius: var(--border-radius);
     text-align: center;
 }
-
-
 
 /* ===== Button Styles ===== */
 .btn {
@@ -377,16 +376,41 @@ img {
     margin-bottom: 20px;
 }
 
+/* Add this to your existing CSS */
 .hero-slider {
+    position: relative;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 .hero-slider img {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: var(--border-radius);
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.hero-slider img.active {
+    opacity: 1;
+    transform: scale(1);
+    z-index: 1;
+}
+
+.hero-slider img.prev {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+.hero-slider img.next {
+    opacity: 0;
+    transform: translateX(100%);
 }
 
 .slider-btn {
@@ -711,6 +735,7 @@ img {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    line-height: 1.7;
 }
 
 .newsletter-form {
@@ -857,11 +882,11 @@ img {
     h1 {
         font-size: 2rem;
     }
-    
+
     h2 {
         font-size: 1.8rem;
     }
-    
+
     h3 {
         font-size: 1.5rem;
     }
