@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lootish - Gaming Gear</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css//gear.css">
+</head>
+
+<body>
+    <!-- Top Banner -->
+    <div class="top-banner">
+        <div class="container">
+            <div class="offer-banner">
+                <a href="./index.html">Sign up</a>
+                <span>and get 20% offer on your first loot</span>
+                <span class="close-banner">X</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <h1 class="logo">Lootish</h1>
+        <nav class="main-nav">
+            <a href="./home.html">Home</a>
+            <a href="#new-arrivals">New Arrivals</a>
+            <a href="#most-wanted">Hot Stuffs</a>
+            <a href="./gear.html">Loots</a>
+            <a href="./contact.html">Contact Us</a>
+            <button class="btn jungo-btn" onclick="window.location.href='https://mikelokinz.github.io/Juego/index.html'">Jungo</button>
+        </nav>
+    </header>
+
+    <div class="filter-container" id="filterContainer">
+        <div class="search-container">
+            <input type="text" class="search-input" id="searchInputBox" placeholder="Search products...">
+            <i class="fas fa-search"></i>
+        </div>
+        <button class="filter-toggle-btn">
+            <i class="fas fa-filter"></i>
+        </button>
+    </div>
+
+    <!-- Filter Panel -->
+    <div class="filter-panel" id="filterPanel">
+        <div class="filter-content">
+            <div class="close-filter" id="closeFilterBtn">
+                X
+            </div>
+            <!-- Category Filter -->
+            <div class="filter-section">
+                <h4>Category</h4>
+                <div class="filter-options">
+                    <label><input type="checkbox" name="category" value="Keyboards"> Keyboards</label>
+                    <label><input type="checkbox" name="category" value="Mice"> Mice</label>
+                    <label><input type="checkbox" name="category" value="Headsets"> Headsets</label>
+                    <label><input type="checkbox" name="category" value="Monitors"> Monitors</label>
+                    <label><input type="checkbox" name="category" value="Controllers"> Controllers</label>
+                </div>
+            </div>
+
+            <!-- Brand Filter -->
+            <div class="filter-section">
+                <h4>Brand</h4>
+                <div class="filter-options">
+                    <label><input type="checkbox" name="brand" value="ROG"> ROG</label>
+                    <label><input type="checkbox" name="brand" value="Razer"> Razer</label>
+                    <label><input type="checkbox" name="brand" value="Corsair"> Corsair</label>
+                    <label><input type="checkbox" name="brand" value="Logitech"> Logitech</label>
+                    <label><input type="checkbox" name="brand" value="SteelSeries"> SteelSeries</label>
+                </div>
+            </div>
+
+            <!-- Price Filter -->
+            <div class="filter-section">
+                <h4>Price Range</h4>
+                <div class="filter-options">
+                    <label><input type="checkbox" name="price" value="0-100"> Under $100</label>
+                    <label><input type="checkbox" name="price" value="100-200"> $100-$200</label>
+                    <label><input type="checkbox" name="price" value="200-300"> $200-$300</label>
+                    <label><input type="checkbox" name="price" value="300-500"> $300-$500</label>
+                    <label><input type="checkbox" name="price" value="500+"> $500+</label>
+                </div>
+            </div>
+
+            <button class="apply-btn" id="applyFiltersBtn">Apply Filters</button>
+            <button class="reset-btn" id="resetFiltersBtn">Reset All</button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+
+        <!-- Gaming Keyboards Section -->
+        <section id="keyboards" class="products-section">
+            <h2 class="section-title">Gaming Keyboards</h2>
+            <div class="products-grid" id="keyboardsContainer"></div>
+        </section>
+
+        <!-- Hot Stuffs Section -->
+
+        <section id="most-wanted" class="products-section">
+            <h2 class="section-title">Hot Stuffs</h2>
+            <div class="products-grid" id="hotStuffsContainer"></div>
+        </section>
+
+        <!-- Gaming Mice Section -->
+        <section id="mice" class="products-section">
+            <h2 class="section-title">Gaming Mice</h2>
+            <div class="products-grid" id="miceContainer"></div>
+        </section>
+
+        <!-- New Arrivals Section -->
+
+        <section id="new-arrivals" class="products-section">
+            <h2 class="section-title">New Arrivals</h2>
+            <div class="products-grid" id="newArrivalsContainer"></div>
+        </section>
+
+        <!-- Headsets Section -->
+        <section id="headsets" class="products-section">
+            <h2 class="section-title">Gaming Headsets</h2>
+            <div class="products-grid" id="headsetsContainer"></div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <h2 class="logo">Lootish</h2>
+                <p class="tagline">Lootish — a Jungo brand</p>
+
+                <div class="footer-links">
+                    <a href="#">About Us</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Support</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/franklin.michaeljohn"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+
+                <p class="copyright">© 2025 Lootish. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/gear.js"></script>
+</body>
+
+</html>
