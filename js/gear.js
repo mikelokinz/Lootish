@@ -285,7 +285,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 149.99,
                 originalPrice: 169.99,
-                image: "../assets/key4.jpg",
+                image: "./assets/key1.jpg",
                 description: "65% compact wireless mechanical keyboard"
             },
             {
@@ -295,7 +295,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 99.99,
                 originalPrice: 119.99,
-                image: "../assets/key5.jpg",
+                image: "./assets/key2.jpg",
                 description: "Low-profile wireless mechanical keyboard"
             },
             {
@@ -305,7 +305,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 129.99,
                 originalPrice: 149.99,
-                image: "../assets/key6.jpg",
+                image: "./assets/key3.jpg",
                 description: "60% compact optical switch keyboard"
             },
             {
