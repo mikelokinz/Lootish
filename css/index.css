@@ -1,0 +1,15 @@
+/* Login Container */
+.login-container {
+    background-color: rgba(26, 26, 26, 0.8);
+    padding: 40px;
+    border: 2px solid #f0e6d2;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(240, 230, 210, 0.2);
+    text-align: center;
+    animation: fade-in 1.5s ease-out;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    width: fit-content;
+    margin: 20px;
+}
