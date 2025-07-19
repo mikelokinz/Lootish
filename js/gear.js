@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 149.99,
                 originalPrice: 179.99,
-                image: "../assets/key1.jpg",
+                image: "./assets/key1.jpg",
                 badge: "NEW",
                 description: "Mechanical gaming keyboard with RX optical switches"
             },
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Mice",
                 price: 69.99,
                 originalPrice: 79.99,
-                image: "../assets/mo1.jpg",
+                image: "./assets/mo1.jpg",
                 badge: "BESTSELLER",
                 description: "Customizable ergonomic gaming mouse with 11 programmable buttons"
             },
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Headsets",
                 price: 249.99,
                 originalPrice: 349.99,
-                image: "../assets/hd1.jpg",
+                image: "./assets/hd1.jpg",
                 description: "Premium wireless gaming headset with active noise cancellation"
             },
             {
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 129.99,
                 originalPrice: 159.99,
-                image: "../assets/key2.jpg",
+                image: "./assets/key2.jpg",
                 badge: "LIMITED",
                 description: "Mechanical keyboard with Cherry MX switches and per-key RGB"
             },
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Mice",
                 price: 129.99,
                 originalPrice: 159.99,
-                image: "../assets/mo2.jpg",
+                image: "./assets/mo2.jpg",
                 badge: "HOT",
                 description: "Ultra-lightweight wireless gaming mouse with HERO sensor"
             },
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Monitors",
                 price: 2999.99,
                 originalPrice: 3499.99,
-                image: "../assets/mon1.jpg",
+                image: "./assets/mon1.jpg",
                 description: "32-inch 4K HDR gaming monitor with 144Hz refresh rate"
             },
             {
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 229.99,
                 originalPrice: 249.99,
-                image: "../assets/key3.jpg",
+                image: "./assets/key3.jpg",
                 badge: "TRENDING",
                 description: "Mechanical gaming keyboard with Razer Yellow switches"
             },
@@ -101,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Headsets",
                 price: 179.99,
                 originalPrice: 199.99,
-                image: "../assets/hd2.jpg",
+                image: "./assets/hd2.jpg",
                 description: "High-fidelity wireless gaming headset with broadcast-grade mic"
             },
             {
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 199.99,
                 originalPrice: 229.99,
-                image: "../assets/key4.jpg",
+                image: "./assets/key4.jpg",
                 description: "Adjustable mechanical keyboard with OLED smart display"
             },
             {
@@ -121,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Mice",
                 price: 149.99,
                 originalPrice: 169.99,
-                image: "../assets/mo3.jpg",
+                image: "./assets/mo3.jpg",
                 description: "Wireless gaming mouse with joystick and customizable design"
             }
         ],
@@ -133,7 +133,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Mice",
                 price: 79.99,
                 originalPrice: 99.99,
-                image: "../assets/mo4.jpg",
+                image: "./assets/mo4.jpg",
                 description: "Wireless gaming mouse with Qi wireless charging"
             },
             {
@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Headsets",
                 price: 179.99,
                 originalPrice: 199.99,
-                image: "../assets/hd3.jpg",
+                image: "./assets/hd3.jpg",
                 description: "Wireless esports headset with THX Spatial Audio"
             },
             {
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Headsets",
                 price: 149.99,
                 originalPrice: 179.99,
-                image: "../assets/hd4.jpg",
+                image: "./assets/hd4.jpg",
                 description: "Lightweight gaming headset with ESS DAC"
             },
             {
@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 229.99,
                 originalPrice: 249.99,
-                image: "../assets/key5.jpg",
+                image: "./assets/key5.jpg",
                 description: "Wireless mechanical keyboard with low-profile switches"
             },
             {
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Mice",
                 price: 149.99,
                 originalPrice: 179.99,
-                image: "../assets/mo5.jpg",
+                image: "./assets/mo5.jpg",
                 description: "Modular wireless gaming mouse with interchangeable side plates"
             },
             {
@@ -183,7 +183,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Mice",
                 price: 149.99,
                 originalPrice: 169.99,
-                image: "../assets/mo6.jpg",
+                image: "./assets/mo6.jpg",
                 description: "Ultra-lightweight wireless MMO mouse with 12 side buttons"
             },
             {
@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 219.99,
                 originalPrice: 249.99,
-                image: "../assets/key6.jpg",
+                image: "./assets/key6.jpg",
                 description: "Mechanical keyboard with OPX optical-mechanical switches"
             },
             {
@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 199.99,
                 originalPrice: 229.99,
-                image: "../assets/key7.jpg",
+                image: "./assets/key7.jpg",
                 description: "Mechanical keyboard with animated LED display"
             },
             {
@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Headsets",
                 price: 199.99,
                 originalPrice: 229.99,
-                image: "../assets/hd5.jpg",
+                image: "./assets/hd5.jpg",
                 description: "Wireless gaming headset with haptic feedback"
             },
             {
@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Headsets",
                 price: 149.99,
                 originalPrice: 179.99,
-                image: "../assets/hd6.jpg",
+                image: "./assets/hd6.jpg",
                 description: "Wireless gaming headset with LIGHTSYNC RGB"
             }
         ],
@@ -235,7 +235,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 169.99,
                 originalPrice: 189.99,
-                image: "../assets/key8.jpg",
+                image: "./assets/key8.jpg",
                 description: "Custom mechanical keyboard with QMK/VIA support"
             },
             {
@@ -245,7 +245,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 129.99,
                 originalPrice: 149.99,
-                image: "../assets/key9.jpg",
+                image: "./assets/key9.jpg",
                 description: "Mechanical keyboard with Cherry MX switches"
             },
             {
@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 169.99,
                 originalPrice: 199.99,
-                image: "../assets/key1.jpg",
+                image: "./assets/key1.jpg",
                 description: "75% compact mechanical keyboard with rotary encoder"
             },
             {
@@ -265,7 +265,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 89.99,
                 originalPrice: 109.99,
-                image: "../assets/key2.jpg",
+                image: "./assets/key2.jpg",
                 description: "TKL mechanical keyboard with HyperX switches"
             },
             {
@@ -275,7 +275,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 119.99,
                 originalPrice: 139.99,
-                image: "../assets/key3.jpg",
+                image: "./assets/key3.jpg",
                 description: "Titan Switch Optical mechanical keyboard"
             },
             {
@@ -285,7 +285,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 149.99,
                 originalPrice: 169.99,
-                image: "./assets/key1.jpg",
+                image: "./assets/key4.jpg",
                 description: "65% compact wireless mechanical keyboard"
             },
             {
@@ -295,7 +295,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 99.99,
                 originalPrice: 119.99,
-                image: "./assets/key2.jpg",
+                image: "./assets/key5.jpg",
                 description: "Low-profile wireless mechanical keyboard"
             },
             {
@@ -305,7 +305,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 129.99,
                 originalPrice: 149.99,
-                image: "./assets/key3.jpg",
+                image: "./assets/key6.jpg",
                 description: "60% compact optical switch keyboard"
             },
             {
@@ -315,7 +315,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 159.99,
                 originalPrice: 179.99,
-                image: "../assets/key7.jpg",
+                image: "./assets/key7.jpg",
                 description: "Mechanical keyboard with OLED smart display"
             },
             {
@@ -325,7 +325,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Keyboards",
                 price: 229.99,
                 originalPrice: 249.99,
-                image: "../assets/key8.jpg",
+                image: "./assets/key8.jpg",
                 description: "Wireless mechanical keyboard with low-profile switches"
             }
         ],
@@ -337,7 +337,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Mice",
                 price: 79.99,
                 originalPrice: 99.99,
-                image: "../assets/mo7.jpg",
+                image: "./assets/mo7.jpg",
                 description: "Ultra-lightweight wireless gaming mouse"
             },
             {
@@ -347,7 +347,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Mice",
                 price: 159.99,
                 originalPrice: 179.99,
-                image: "../assets/mo1.jpg",
+                image: "./assets/mo1.jpg",
                 description: "Wireless gaming mouse with LIGHTSPEED and LIGHTSYNC"
             },
             {
@@ -357,7 +357,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Mice",
                 price: 149.99,
                 originalPrice: 169.99,
-                image: "../assets/mo2.jpg",
+                image: "./assets/mo2.jpg",
                 description: "Wireless ergonomic gaming mouse with Focus Pro 30K sensor"
             },
             {
@@ -367,7 +367,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Mice",
                 price: 129.99,
                 originalPrice: 149.99,
-                image: "../assets/mo3.jpg",
+                image: "./assets/mo3.jpg",
                 description: "Esports-grade wireless gaming mouse"
             },
             {
@@ -377,7 +377,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Mice",
                 price: 59.99,
                 originalPrice: 79.99,
-                image: "../assets/mo4.jpg",
+                image: "./assets/mo4.jpg",
                 description: "Ultra-lightweight gaming mouse with 8,000Hz polling"
             },
             {
@@ -387,7 +387,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Mice",
                 price: 89.99,
                 originalPrice: 109.99,
-                image: "../assets/mo5.jpg",
+                image: "./assets/mo5.jpg",
                 description: "Lightweight wireless gaming mouse with hot-swappable switches"
             },
             {
@@ -397,7 +397,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Mice",
                 price: 49.99,
                 originalPrice: 59.99,
-                image: "../assets/mo6.jpg",
+                image: "./assets/mo6.jpg",
                 description: "Ultra-lightweight honeycomb gaming mouse"
             },
             {
@@ -407,7 +407,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Mice",
                 price: 129.99,
                 originalPrice: 149.99,
-                image: "../assets/mo7.jpg",
+                image: "./assets/mo7.jpg",
                 description: "Ergonomic wireless gaming mouse with Titan Optical Switch"
             },
             {
@@ -417,7 +417,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Mice",
                 price: 79.99,
                 originalPrice: 99.99,
-                image: "../assets/mo1.jpg",
+                image: "./assets/mo1.jpg",
                 description: "Lightweight wireless gaming mouse with 100-hour battery"
             },
             {
@@ -427,7 +427,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Mice",
                 price: 129.99,
                 originalPrice: 159.99,
-                image: "../assets/mo2.jpg",
+                image: "./assets/mo2.jpg",
                 description: "Ultra-lightweight wireless gaming mouse with HERO sensor"
             }
         ],
@@ -439,7 +439,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Headsets",
                 price: 199.99,
                 originalPrice: 229.99,
-                image: "../assets/hd1.jpg",
+                image: "./assets/hd1.jpg",
                 description: "Wireless gaming headset with 300-hour battery life"
             },
             {
@@ -449,7 +449,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Headsets",
                 price: 179.99,
                 originalPrice: 199.99,
-                image: "../assets/hd2.jpg",
+                image: "./assets/hd2.jpg",
                 description: "Multi-platform wireless gaming headset with Sonar software"
             },
             {
@@ -459,7 +459,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Headsets",
                 price: 99.99,
                 originalPrice: 129.99,
-                image: "../assets/hd2.jpg",
+                image: "./assets/hd2.jpg",
                 description: "Multi-platform wireless gaming headset"
             },
             {
@@ -469,7 +469,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Headsets",
                 price: 149.99,
                 originalPrice: 179.99,
-                image: "../assets/hd3.jpg",
+                image: "./assets/hd3.jpg",
                 description: "Wireless gaming headset with broadcast-grade microphone"
             },
             {
@@ -479,7 +479,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Headsets",
                 price: 229.99,
                 originalPrice: 249.99,
-                image: "../assets/hd4.jpg",
+                image: "./assets/hd4.jpg",
                 description: "Wireless gaming headset with LIGHTSYNC RGB"
             },
             {
@@ -489,7 +489,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Headsets",
                 price: 199.99,
                 originalPrice: 229.99,
-                image: "../assets/hd5.jpg",
+                image: "./assets/hd5.jpg",
                 description: "Wireless gaming headset with ESS DAC"
             },
             {
@@ -499,7 +499,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Headsets",
                 price: 249.99,
                 originalPrice: 279.99,
-                image: "../assets/hd6.jpg",
+                image: "./assets/hd6.jpg",
                 description: "Wireless gaming headset with active noise cancellation"
             },
             {
@@ -509,7 +509,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Headsets",
                 price: 149.99,
                 originalPrice: 179.99,
-                image: "../assets/hd7.jpg",
+                image: "./assets/hd7.jpg",
                 description: "Wireless gaming headset with Superhuman Hearing"
             },
             {
@@ -519,7 +519,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Headsets",
                 price: 199.99,
                 originalPrice: 229.99,
-                image: "../assets/hd1.jpg",
+                image: "./assets/hd1.jpg",
                 description: "Wired gaming headset with haptic feedback"
             },
             {
@@ -529,7 +529,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 category: "Headsets",
                 price: 149.99,
                 originalPrice: 179.99,
-                image: "../assets/hd2.jpg",
+                image: "./assets/hd2.jpg",
                 description: "Wireless gaming headset with virtual 7.1 surround sound"
             }
         ]
