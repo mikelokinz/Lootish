@@ -17,22 +17,6 @@
 /* ==================== MEDIA QUERIES ==================== */
 
 /* Extra Large Screens (Desktops > 1440px) */
-@media (min-width: 1440px) {
-    .login-container {
-        padding: 50px;
-        font-size: 1.1em;
-    }
-
-    .title {
-        font-size: 3em;
-    }
-
-    input,
-    button {
-        font-size: 1.1em;
-        padding: 18px;
-    }
-}
 
 /* Medium to Large Screens (Desktops & Laptops: 1024px - 1439px) */
 @media (min-width: 1024px) and (max-width: 1439px) {
