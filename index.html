@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent login</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto+Mono&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <div class="login-container">
+        <h1 class="title">AUTHENTICATION</h1>
+        <form id="login-form">
+            <div class="input-group">
+                <label for="username">AGENT ID:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">PASSCODE:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" id="login-button">TRANSMIT</button>
+        </form>
+        <p class="message" id="message"></p>
+        <p class="redirect-text">New agent? <a href="signup.html">Request clearance</a></p>
+    </div>
+    <script src="./js/auth.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
