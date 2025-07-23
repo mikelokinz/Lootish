@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agent Registration</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="login-container">
+        <h1 class="title">CLEARANCE REQUEST</h1>
+        <form id="signup-form">
+            <div class="input-group">
+                <label for="new-username">AGENT ID:</label>
+                <input type="text" id="new-username" name="new-username" required>
+                <small>Must be 6-12 characters (letters, numbers, underscores)</small>
+            </div>
+            <div class="input-group">
+                <label for="new-password">PASSCODE:</label>
+                <input type="password" id="new-password" name="new-password" required>
+                <small>8+ chars with uppercase, number, and special character</small>
+            </div>
+            <div class="input-group">
+                <label for="confirm-password">CONFIRM PASSCODE:</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <button type="submit" id="signup-button">REQUEST CLEARANCE</button>
+        </form>
+        <p class="message" id="message"></p>
+        <p class="redirect-text">Already have clearance? <a href="index.html">Authenticate</a></p>
+    </div>
+    <script src="./js/auth.js"></script>
+    <script src="./js/signup.js"></script>
+</body>
+</html>

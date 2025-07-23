@@ -1,0 +1,82 @@
+/* Signup Container */
+.login-container {
+    background-color: rgba(26, 26, 26, 0.8);
+    padding: 40px;
+    border: 2px solid #f0e6d2;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(240, 230, 210, 0.2);
+    text-align: center;
+    animation: fade-in 1.5s ease-out;
+    position: relative;
+    z-index: 1;
+    width: 550px;
+    margin: 10px;
+}
+
+
+
+.hint {
+    display: block;
+    font-size: 0.7em;
+    margin-top: 5px;
+    color: #aaa;
+    text-align: left;
+}
+
+/* ==================== MEDIA QUERIES FOR .login-container & .hint ==================== */
+
+/* Extra Large Screens (1440px and above) */
+
+
+/* Large Screens (1024px - 1439px) */
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .login-container {
+        width: 550px;
+        padding: 40px;
+    }
+
+    .hint {
+        font-size: 0.7em;
+    }
+}
+
+/* Tablets (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .login-container {
+        width: 90%;
+        max-width: 450px;
+        padding: 35px;
+    }
+
+    .hint {
+        font-size: 0.7em;
+    }
+}
+
+/* Small Tablets & Large Phones (480px - 767px) */
+@media (min-width: 480px) and (max-width: 767px) {
+    .login-container {
+        width: 90%;
+        max-width: 400px;
+        padding: 10px;
+    }
+
+    .hint {
+        font-size: 0.65em;
+    }
+}
+
+/* Mobile Phones (Below 480px) */
+@media (max-width: 479px) {
+    .login-container {
+        width: 90%;
+        padding: 10px;
+        border-width: 1px;
+        margin: 5px;
+    }
+
+    .hint {
+        font-size: 0.6em;
+        text-align: center;
+    }
+}
